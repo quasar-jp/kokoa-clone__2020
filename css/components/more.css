@@ -1,0 +1,11 @@
+.user-component__column-edit i {
+  margin-right: 10px;
+}
+.component__btns-lgbox {
+  margin-top: 10px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+.component__kokoa {
+  color: rgb(248, 226, 211);
+  padding: 5px;
+}

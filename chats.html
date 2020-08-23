@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - Kokoa Clone</title>
+    <script
+      src="https://kit.fontawesome.com/352e500edc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>AT&T</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>12:12</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-comments fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+    <main class="screen">
+      <div>
+        <a class="user-component" href="chat.html">
+          <div class="user-component__column">
+            <img
+              src="photo/friends1.JPG"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <span class="user-component__title">슬기</span>
+              <p class="user-component__preview">완전 많음 ㅠ</p>
+            </div>
+          </div>
+          <div class="user-component__column-notification">
+            <span class="notification__time">16:37</span>
+            <span class="notification__talk">1</span>
+          </div>
+        </a>
+      </div>
+    </main>
+    <nav class="nav body__color">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification">1</span>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__new">.</span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>ㅠㅠ Your screen is too big ㅠㅠ</span>
+    </div>
+  </body>
+</html>

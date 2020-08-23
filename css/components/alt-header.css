@@ -1,0 +1,33 @@
+.alt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 9999;
+}
+.alt-header__column:first-child {
+  width: 33%;
+}
+.alt-header__column:nth-child(2) {
+  font-size: 20px;
+  width: 33%;
+  justify-content: center;
+}
+.alt-header__column:last-child {
+  width: 33%;
+}
+.user-component__column {
+  position: relative;
+}
+.settings__title {
+  position: absolute;
+  margin-left: 40px;
+  width: 150px;
+}
+.alt-header__column span:last-child {
+  margin-left: 10px;
+}
